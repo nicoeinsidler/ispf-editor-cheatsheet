@@ -1,4 +1,6 @@
-# ISPF Editor Cheat Sheet
+---
+title: ISPF Editor Cheatsheet
+---
 
 The following commands can be issued in the line number column (just type over the line numbers).
 
