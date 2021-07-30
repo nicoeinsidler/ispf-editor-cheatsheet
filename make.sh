@@ -1,1 +1,1 @@
-pandoc -s --template template.html -c style.css README.md -o ispf-cheatsheet.html
+pandoc -s --template template.html -c style.css README.md -o docs/index.html
