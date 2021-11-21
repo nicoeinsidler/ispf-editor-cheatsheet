@@ -11,6 +11,19 @@ There are two different ways to issue a command:
 - command field for general commands
 - line command, which is entered over the line numbers
 
+### Commands
+
+|       command | explanation    |
+| ------------: | -------------- |
+|         `res` | reset          |
+|         `col` | display column |
+| `caps on/off` | capitalize     |
+|        `save` | save data set  |
+|         `sub` | submit job     |
+
+
+### Line Commands
+
 |  command | explanation                                                  |
 | -------: | ------------------------------------------------------------ |
 |      `i` | insert line                                                  |
