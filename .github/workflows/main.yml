@@ -17,5 +17,5 @@ jobs:
       - uses: docker://pandoc/core:2.9
 
       - name: running make script
-        run: sudo ./make.sh
+        run: pandoc -s --template docs/template.html -c docs/style.css README.md -o docs/index.html
 
