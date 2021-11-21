@@ -13,14 +13,14 @@ There are two different ways to issue a command:
 
 ### Commands
 
-|       command | explanation    |
-| ------------: | -------------- |
-|         `res` | reset          |
-|         `col` | display column |
-| `caps on/off` | capitalize     |
-|        `save` | save data set  |
-|         `sub` | submit job     |
-
+|       command | explanation                   |
+| ------------: | ----------------------------- |
+|         `res` | reset                         |
+|         `col` | display column                |
+| `caps on/off` | capitalize                    |
+|        `save` | save data set                 |
+|         `sub` | submit job                    |
+|          `hi` | bring up highlighting dialoge |
 
 ### Line Commands
 
