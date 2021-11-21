@@ -15,7 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: docker://pandoc/core:2.9
-
-      - name: running make script
-        run: pandoc -s --template docs/template.html -c docs/style.css README.md -o docs/index.html
-
+        with:
+            args: >-
+              --standalone
+              --template=docs/template.html
+              --css=docs/style.css
+              --output=docs/index.html
+              README.md
