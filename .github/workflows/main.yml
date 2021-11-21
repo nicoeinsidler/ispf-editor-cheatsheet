@@ -1,0 +1,24 @@
+name: update homepage
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: docker://pandoc/core:2.9
+        with:
+            args: >-
+              --standalone
+              --template=docs/template.html
+              --css=docs/style.css
+              --output=docs/index.html
+              README.md
