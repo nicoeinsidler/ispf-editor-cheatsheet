@@ -6,6 +6,11 @@ The following commands can be issued in the line number column (just type over t
 
 ## Commands
 
+There are two different ways to issue a command:
+
+- command field for general commands
+- line command, which is entered over the line numbers
+
 |  command | explanation                                                  |
 | -------: | ------------------------------------------------------------ |
 |      `i` | insert line                                                  |
