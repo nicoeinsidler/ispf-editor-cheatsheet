@@ -28,8 +28,8 @@ There are two different ways to issue a command:
 | -------: | ------------------------------------------------------------ |
 |      `i` | insert line                                                  |
 |      `o` | overwrite line (from previously copied or moved line)        |
-|      `a` | insert above (from previously copied or moved line)          |
-|      `b` | insert below (from previously copied or moved line)          |
+|      `a` | insert after (from previously copied or moved line)          |
+|      `b` | insert before (from previously copied or moved line)         |
 |      `c` | copy line                                                    |
 |      `r` | repeat line                                                  |
 |      `m` | move line                                                    |
